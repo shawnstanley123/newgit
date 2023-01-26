@@ -1,0 +1,87 @@
+body{
+ 
+  margin:auto;
+}
+.form{
+  display: flex;
+  flex-direction: column;
+}
+.form .moviename,.rating{
+  width:220px;
+  height:20px;
+}
+button{
+width:60px;
+height:20px;
+display: flex;
+text-align: center;
+margin-top: 20px;
+}
+.roller-coaster{
+  width: 1470px;
+  height: 80px;
+
+margin:auto 25px;
+margin-top: 40px;
+box-shadow: 3px 3px 3px rgba(0,0,0,0.1),-1px -1px 3px rgba(0,0,0,0.1);
+border-radius: 3px;
+}
+.rbutton{
+  width: 80px;
+  height: 20px;
+  background-color: slateblue;
+  text-align: center;
+  color: white;
+  border: none;
+  box-shadow: 3px 3px 3px rgba(0,0,0,0.1);
+  float: right;
+  margin-right:10px ;
+}
+.linput{
+  width:220px;
+  height:20px;
+
+}
+.lpassword{
+  width:220px;
+  height:20px;
+}
+.login{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  margin-top: 360px;
+}
+.table td{
+  width:300px;
+  height:30px;
+}
+.spi{
+  float:right;
+  margin-top: 20px;
+  margin-right: 10px;
+}
+.increment{
+  float:right;
+  margin-top: 20px;
+  margin-right: 40px;
+  border: none;
+  color: white;
+  background-color: slateblue;
+  width: 100px;
+}
+.value{
+  float:right;
+  margin-top: 20px;
+  margin-right: 30px;
+}
+.decrement{
+  float:right;
+  margin-top: 20px;
+  margin-right: 20px;
+  border: none;
+  color: white;
+  background-color: slateblue;
+  width: 100px;
+}
